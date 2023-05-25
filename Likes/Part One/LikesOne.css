@@ -1,0 +1,35 @@
+#like{
+    background-color: rgb(255,217,102);
+    width: 50px;
+    height: 20px;
+    margin-top: 15px;
+    margin-right: 20px;
+
+}
+
+.up
+{
+    
+    display: flex;
+    justify-content: space-between;
+
+    
+    
+}
+#teext{
+    margin-left: 20px;
+    
+}
+
+
+.partOne{
+
+    width: 40%;
+    border: 2px solid black;
+margin: 150px;
+}
+
+.container{
+    margin: 0 auto;
+    
+}

@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+#header{
+    margin: 0px auto;
+    width: 50px;
+}
+#header img{
+    width: 100px;
+    margin-left: -405px;
+}
+#header h1{
+    margin-top: -70px;
+    width: 250px;
+    font-weight: 500;
+    font-size: 36px;
+    margin-left: -290px;
+}
+#webHead{
+    background: radial-gradient(#2D6B9E, #5384AA);
+    margin: 0px auto;
+    width: 860px;
+    height: 50px;
+    border-radius: 1px;
+    font-size: 30px;
+    font-weight: 300;
+}
+#webHead p{
+    margin-top: 5px;
+    line-height: 150%;
+    margin-left: 21px;
+    color: white;
+}
+.dBlue{
+    color: #26669C;
+}
+.dBlueDNS{
+    color: #26669C;
+    margin-top: -87px;
+    margin-left: 266px;
+    float: left;
+}
+.red{
+    color: red;
+}
+.grey{
+    color: #595959;
+}
+.lBlue{
+    color: #00C0DD;
+    margin-top: -85px;
+    font-size: 24px;
+    margin-left: 710px;
+    font-weight: 600;
+    float: left;
+}
+.mBlue{
+    color: #26669C;
+}
+.butWht{
+    color: white;
+}
+.hBlue{
+    color: #0297AD;
+}
+.bold{
+    font-weight: bold;
+}
+#topContainer{
+    background: linear-gradient(#E8E8E8, #F8F8F8);
+    margin: 0px auto;
+    height: 100px;
+    width: 860px;
+}
+.question{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.answer{
+    font-size: 13px;
+    font-weight: 600;
+    width: 230px;
+    margin-top: -10px;
+}
+.dnsIcon{
+    width: 20px;
+    float: left;
+    margin-top: -90px;
+    margin-left: 240px;
+}
+.time{
+    font-size: 10px;
+    float: right;
+}
+.phoneIcon{
+    float: left;
+    margin-top: -90px;
+    margin-left: 650px;
+    width: 50px;
+}
+.hr1{
+    margin: 0px auto;
+    margin-top: -35px;
+    margin-left: 340px;
+    width: 600px;
+}
+.hr2{
+    margin: 0px auto;
+    margin-top: 27px;
+    margin-left: 93px;
+    width: 190px;
+}
+.intNum{
+    margin-top: -60px;
+    font-size: 10px;
+    margin-left: 725px;
+}
+.clients{
+    font-weight: 600;
+    font-size: 19px;
+    margin-top: 5px;
+    margin-left: 340px;
+
+}
+.mainInfo{
+    margin-top: 10px;
+    margin-left: 340px;
+    font-size: 16px;
+    font-weight: 500;
+}
+#mainChunk ul li{
+    margin-left: 380px;
+    margin-top: 10px;
+    font-size: 14px;
+    width: 590px;
+}
+.videoBut{
+    width: 190px;
+    background: linear-gradient(#659AC2, #27669C);
+    height: 37px;
+    margin-top: -130px;
+    margin-left: 95px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 1px #8E8E8E;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 35px;
+}
+.moreBut p{
+    width: 190px;
+    background: linear-gradient(#E9AD5E, #EE7201);
+    height: 37px;
+    margin-top: 4px;
+    margin-left: 95px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 35px;
+    font-weight: 500;
+    box-shadow: 1px 1px #8E8E8E;
+    font-size: 16px;
+}
+.cServer{
+    width: 270px;
+    margin-top: 38px;
+    margin-left: 540px;
+}
+.adBg{
+    width: 200px;
+    margin-top: -110px;
+    margin-left: 90px;
+    height: 330px;
+}
+.adText{
+    margin-top: -310px;
+    margin-left: 90px;
+    font-size: 26px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
+.ninja{
+    width: 90px;
+    margin-left: 140px;
+}
+.learnBut{
+    background: linear-gradient(#7ED0DE, #02C0DD);
+    height: 30px;
+    width: 160px;
+    margin-left: 110px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    top: 620px;
+    position: absolute;
+}
+.whatHap{
+    font-weight: 600;
+    font-size: 19px;
+    margin-top: -120px;
+    margin-left: 340px;    
+}
+#mainChunk ol{
+    margin-left: 380px;
+    margin-top: 10px;
+    font-size: 14px;
+    width: 590px;
+}
+#footer{
+    border-top: 5px solid #0087DD;
+    border-left: 5px solid #0087DD;
+    border-right: 5px solid #0087DD;
+    width: 610px;
+    height: 140px;
+    margin-left: 345px; 
+    margin-top: 30px;
+}
+#footer img{
+    width: 110px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.bigHead{
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: -100px;
+    margin-left: 150px;      
+}
+.bigInfo{
+    margin-left: 150px;
+    margin-top: 10px;
+    font-size: 14px;    
+}
+.bigLearn{
+    margin-left: 150px;
+    margin-top: 10px;
+    font-size: 14px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="DojoWeather.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="navbar">
+            <h1 id="dojo" class="dojo"> Dojo Wheather</h1>
+
+            <ul>
+
+                <li><button class="on" onclick="callAlert(this)">Burbank</button></li>
+                <li><button class="on" onclick="callAlert(this)">Chicago</button></li>
+                <li><button class="on" onclick="callAlert(this)">Dallas</button></li>
+
+            </ul>
+        </div>
+        <div class="below">
+            <div class="san">
+                <div class="jose">
+                    <h1>San Jose</h1>
+                </div>
+                <div class="fc">
+                    <label>show temperature in </label>
+                    <select onchange="chooseDegree(this)">
+                        <option>C</option>
+                        <option>F</option>
+                    </select>
+
+                </div>
+            </div>
+            <hr> <br>
+
+
+            <div class="daily">
+                <div class="today">
+                    <h1 class="h">Today</h1>
+                    <img class="img" src="some_clouds.png" alt="cloud">
+                    <p>some rain</p> <br>
+                    <pre> <span id="cSeven" class="red">24C</span>    <span id="cEight" class="blue">18C</span></pre>
+
+                </div>
+
+
+                <div class="tomorow">
+                    <h1 class="h">Tomorrow</h1>
+                    <img class="img" src="some_sun.png" alt="cloud">
+                    <p>some sun</p> <br>
+                    <pre> <span id="cOne" class="red">27C</span>    <span id="cTwo" class="blue">19C</span></pre>
+                </div>
+                <div class="friday">
+                    <h1 class="h">Friday</h1>
+                    <img class="img" src="some_clouds.png" alt="cloud">
+                    <p>some clouds</p> <br>
+                    <pre> <span id="cThree" class="red">21C</span>    <span id="cFour" class="blue">16C</span></pre>
+                </div>
+                <div class="saturday">
+                    <h1 class="h">Saturday</h1>
+                    <img class="img" src="some_sun.png" alt="cloud">
+                    <p>some sun</p> <br>
+                    <pre> <span id="cFive" class="red">26C</span>    <span id="cSix" class="blue">21C</span></pre>
+                </div>
+            </div>
+            <div id="cookies" class="cookies">
+                <div class="left"> <img height="100px" src="cookie.png" alt="cookie"></div>
+                <div class="mid">
+                    <p class="pp">
+                        <strong>Stop! Cookie time!</strong><br>
+                        We use cookies (sadly not the edible ones) to personalize <br>content and ods, to provide social
+                        media features and to <br> analyse our traffic. <a
+                            href="https://login.codingdojo.com/m/385/10420/70637"> Read more....</a>
+                    </p>
+                </div>
+                <div class="right"> <button class="btn" onclick="callRemove()">I Accept</button></div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+
+
+    <script src="DojoWeather.js"></script>
+</body>
+
+</html>

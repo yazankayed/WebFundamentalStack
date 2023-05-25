@@ -1,0 +1,104 @@
+.leftp
+{
+    font-size: 20px;
+}
+
+
+
+
+.header
+{
+    background-color: rgb(72,125,170);
+    color: rgb(255,255,255);
+    font-size: 50px;
+    height: 75px;
+    padding-top: 20px;
+    margin-bottom: -10px;
+    
+}
+
+.left
+{
+    width: 23%;
+}
+.leftbtn
+{
+    padding: 10px;
+}
+.but1
+{
+    background-color: rgb(55,117,170);
+    color: white;
+    font-size: 27px;
+    width: 95%;
+    height: 50px;
+    border-radius: 10px;
+}
+.but2
+{
+    margin-top: 20px;
+    background-color: rgb(238,133,0);
+    color: white;
+    font-size: 27px;
+    width: 95%;
+    height: 50px;
+     border-radius: 10px;
+}
+
+
+#tr111
+{
+    margin-top: 0;
+padding-left: 20px;
+}
+
+
+.theinternet
+{
+display: flex;
+background-color: white;
+
+
+}
+
+#red
+{
+    color: rgb(217,35,28);
+}
+
+#logo
+{
+    height: 150px;
+    position: relative;
+    top: 32px;
+    
+}
+.logo{
+
+    margin-bottom: -200px;
+}
+#logop
+{
+font-size: 70px;
+color: rgb(76,76,76);
+
+}
+
+#logop2
+{
+    color: rgb(34,101,158);
+}
+
+.container
+{
+margin: 0 auto;
+background-color: rgb(233,233,233);
+margin-left: 200px;
+
+
+}
+#spp{
+
+    font-size: 25px;
+    font-weight: bold;
+}

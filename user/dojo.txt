@@ -1,0 +1,25 @@
+INSERT INTO dojos (name)
+VALUES ("Ramallah"), ("Nablus"),("Jenin");
+
+DELETE FROM dojos;
+
+INSERT INTO dojos (name)
+VALUES ("Ramallah"), ("Nablus"),("Jenin");
+
+INSERT INTO ninjas (first_name,last_name,age,dojo_id)
+VALUES ("Yazan","Kayed",23,1),("Rizek","Bahbah",39,1),("Kareem","Taha",35,1);
+
+INSERT INTO ninjas (first_name,last_name,age,dojo_id)
+VALUES ("Ayman","Shamali",37,2),("Sameer","Mura",89,2),("Noor","Hamad",20,2);
+
+INSERT INTO ninjas (first_name,last_name,age,dojo_id)
+VALUES ("Mohanad","Haj",99,3),("Moiayad","Haj",95,3),("Lotfi","Haj",102,3);
+
+SELECT * FROM ninjas
+WHERE dojos.id = 1;
+
+SELECT * FROM ninjas
+WHERE dojos.id = 3;
+    
+SELECT * FROM dojos
+WHERE dojos.id = 3;

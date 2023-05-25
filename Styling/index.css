@@ -1,0 +1,27 @@
+h1 
+{
+
+    
+    background-color:black;
+    color: aliceblue;
+    font-family:'Courier New', Courier, monospace ;
+}
+h2
+{
+    color: aliceblue;
+    background-color: blueviolet;
+    text-align-last:center ;
+    font-style: italic;
+}
+h3 
+{
+    text-align: right;
+    color: black ;
+    background-color:rgb(62, 162, 162);
+    display: block;
+}
+
+span
+{
+    color: aqua;
+}

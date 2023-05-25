@@ -1,0 +1,27 @@
+.container {
+  height: 900x;
+
+  width: 600px;
+
+  margin: 0 auto;
+
+  background-color: blue;
+}
+
+.upper {
+  background-color: rgb(23, 162, 184);
+  height: 200px;
+ 
+}
+.bottom {
+  background-color: aquamarine;
+  
+outline: 1 px dotted red;
+  /* background-color: rgb(255,255,255); */
+  /* height: 300px; */
+
+  /* border: 2px; */
+}
+#mass{
+  margin: 0;
+}

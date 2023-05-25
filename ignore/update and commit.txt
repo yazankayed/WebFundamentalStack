@@ -1,0 +1,8 @@
+git remote add origin https://github.com/jjun14/git_demo
+
+git clone https://github.com/jjun14/git_demo
+
+git commit -m "first commit"
+
+git fetch origin master
+

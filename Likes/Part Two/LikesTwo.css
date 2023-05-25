@@ -1,0 +1,80 @@
+.bar
+{
+
+    color: white;
+    background-color: black;
+    margin: 0 auto;
+
+    width: 70%;
+}
+#h1{margin: 0;}
+
+
+#like{
+    background-color: rgb(255,217,102);
+    width: 50px;
+    height: 20px;
+    margin-top: 15px;
+    margin-right: 20px;
+
+}
+.right{
+
+    /* display: flex; */
+    margin: 0 auto;
+    margin-left: -45px;
+}
+
+.up
+{
+    
+    display: flex;
+    justify-content: space-between;
+
+    
+    
+}
+#teext{
+    margin-left: 20px;
+    
+}
+
+
+
+
+.partOne,.partTwo, .partThree {
+
+    width: 80%;
+    border: 2px solid black;
+margin: 0px 50px 50px 50px;
+}
+
+.container{
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    
+}
+.left{
+
+    margin: 0 auto;
+    border: 2px solid black;
+    width: 20%;
+    margin-top: 30px ;
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 30px;
+
+
+}
+
+.james{
+
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.img{
+
+    height: 50px;
+}
