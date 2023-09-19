@@ -47,7 +47,7 @@ h1,h4,h6{
 .header{
 
     display: flex;
-    background-color: rgb(204,204,204);
+    background-color: rgb(205,205,205);
     justify-content: space-between;
     padding-left: 50px;
     padding-right: 50px;
